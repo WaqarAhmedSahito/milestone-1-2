@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   eslint:{ignoreDuringBuilds:true,},
   output: 'standalone',
-  distDir: 'build',
+  distDir: '.next',
 };
 
 export default nextConfig;
